@@ -1,0 +1,39 @@
+{
+  "name": "ccwhere",
+  "version": "0.1.0",
+  "description": "See what every one of your Claude Code sessions is actually doing, from any terminal - no dashboard, no app, just your own session files.",
+  "type": "module",
+  "bin": {
+    "ccwhere": "dist/bin/ccwhere.js"
+  },
+  "main": "dist/bin/ccwhere.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "cli",
+    "claude-code",
+    "developer-tools",
+    "sessions"
+  ],
+  "author": {
+    "name": "thisismairaj",
+    "url": "https://github.com/thisismairaj"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thisismairaj/ccwhere.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
